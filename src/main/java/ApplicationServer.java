@@ -10,7 +10,8 @@ public class ApplicationServer {
     private Servlet servlet;
     private Server server;
 
-    public ApplicationServer(int port, Servlet servlet) {
+    public
+    ApplicationServer(int port, Servlet servlet) {
 
         this.port = port;
         this.servlet = servlet;
